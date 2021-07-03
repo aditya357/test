@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+   <div>
+       <h3>javascript</h3>
+       <input type="number" name="a" id="a">
+       <input type="submit" onclick="mul()">multiply
+   </div>
+   <script>
+       //array-collection of similar of different data types
+       var myarray=["adi","booodi",9]
+       console.log(myarray);
+       var myarray2= new Array("adi",9);
+       
+    
+
+       console.log(myarray2[2]);
+       //objects
+       var mylaptop = {
+           brand :"dell",
+           model:"lattitude E7450",
+           ram:"126gb",
+           ssd:"512gb"
+       }
+       console.log(mylaptop);
+       //loops in javascript
+     function mul(){
+         var a=parseFloat(document.getElementById("a").value);
+        for(i=0;i<=10;i++)
+       {
+           console.log("the  table is:"+a*i);
+       }
+      }
+      
+   </script>
+
+</body>
+</html>
